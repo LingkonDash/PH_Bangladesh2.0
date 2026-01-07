@@ -37,3 +37,37 @@ header nav .nav_btn {
   background-color: transparent;
   cursor: pointer;
 }
+.header_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  border-radius: 24px;
+  background-color: #C6E4D6;
+  padding: 80px 60px;
+  margin-top: 20px;
+}
+.header_section div {
+  max-width: 615px;
+}
+.header_section div h2  {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e7c;
+}
+.header_section div p {
+  font-size: 56px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin: 16px 0 24px 0;
+}
+.header_section div .header_btn {
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
