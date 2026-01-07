@@ -99,5 +99,78 @@ header nav .nav_btn {
 }
 .main_section1 .cards_parents .cards p {
   font-size: 16px;
+  line-height: 24px;
   color: #0e0e0e93;
+}
+
+.main_section2 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+.main_section2 p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e93;
+}
+.main_section2 .vision_cards_parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+.main_section2 .vision_cards_parent .vision_cards {
+  height: 325px;
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_section2 .vision_cards_parent .vision_cards h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0eb4;
+  margin: 24px 0 12px;
+}
+.main_section2 .vision_cards_parent .vision_cards p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0e93;
+  margin-bottom: 24px;
+}
+.main_section2 .vision_cards_parent .vision_cards .card_btn{
+  color: #FFFFFF;
+  padding: 11px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin-top: auto;
+}
+.main_section2 .yunus {
+  background-image: url(assets/quote-bg.png);
+  background-position: 25px 24px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  border: 1px solid #0e0e0e52;
+  border-radius: 16px;
+  padding: 48px 24px;
+}
+.main_section2 .yunus p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0eab;
+}
+.main_section2 .yunus h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e0e0eb4;
+  margin-top: 12px;
+}
+}
+.main_section2 .yunus p:last-child {
+  margin-top: 4px;
+  color: #0e0e0e83;
 }
