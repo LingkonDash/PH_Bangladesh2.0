@@ -10,7 +10,6 @@ html {
 body {
   font-family: 'Fira Sans', sans-serif;
   background-color: #F5F5F5;
-  height: 100vh;
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
@@ -70,4 +69,35 @@ header nav .nav_btn {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+.main_section1 {
+  margin: 80px 0;
+}
+.main_section1 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.main_section1 .cards_parents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+.main_section1 .cards_parents .cards{
+  width: 302px;
+  padding: 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #0e0e0e52;
+  border-radius: 16px;
+}
+.main_section1 .cards_parents .cards h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0ecb;
+  margin: 24px 0 12px 0;
+}
+.main_section1 .cards_parents .cards p {
+  font-size: 16px;
+  color: #0e0e0e93;
 }
